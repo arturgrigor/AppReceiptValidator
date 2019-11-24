@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FE410843238A7A7400BBFAE4"
-               BuildableName = "AppReceiptValidator_tvOS.framework"
+               BuildableName = "AppReceiptValidator.framework"
                BlueprintName = "AppReceiptValidator tvOS"
                ReferencedContainer = "container:AppReceiptValidator.xcodeproj">
             </BuildableReference>
@@ -61,7 +61,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FE410843238A7A7400BBFAE4"
-            BuildableName = "AppReceiptValidator_tvOS.framework"
+            BuildableName = "AppReceiptValidator.framework"
             BlueprintName = "AppReceiptValidator tvOS"
             ReferencedContainer = "container:AppReceiptValidator.xcodeproj">
          </BuildableReference>

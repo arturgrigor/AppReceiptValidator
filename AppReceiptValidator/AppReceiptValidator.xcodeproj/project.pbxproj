@@ -676,6 +676,7 @@
 		FE4109AD238A8A4500BBFAE4 /* lhash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lhash.h; sourceTree = "<group>"; };
 		FE4109AF238A8A4600BBFAE4 /* libcrypto_tvOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto_tvOS.a; sourceTree = "<group>"; };
 		FE4109B0238A8A4600BBFAE4 /* libssl_tvOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl_tvOS.a; sourceTree = "<group>"; };
+		FE410A00238A8BED00BBFAE4 /* AppReceiptValidator.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = AppReceiptValidator.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1145,6 +1146,7 @@
 		FE41085B238A7B4200BBFAE4 /* tvOS */ = {
 			isa = PBXGroup;
 			children = (
+				FE410A00238A8BED00BBFAE4 /* AppReceiptValidator.modulemap */,
 				FE410847238A7A7400BBFAE4 /* Info-tvOS.plist */,
 			);
 			path = tvOS;
@@ -2423,7 +2425,7 @@
 					"$(PROJECT_DIR)/AppReceiptValidator/OpenSSL/lib-ios",
 					"$(PROJECT_DIR)/AppReceiptValidator/OpenSSL/lib-tvos",
 				);
-				MODULEMAP_FILE = "AppReceiptValidator/Supporting Files/AppReceiptValidator.modulemap";
+				MODULEMAP_FILE = "AppReceiptValidator/Supporting Files/tvOS/AppReceiptValidator.modulemap";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ideasoncanvas.AppReceiptValidator;
@@ -2458,7 +2460,7 @@
 					"$(PROJECT_DIR)/AppReceiptValidator/OpenSSL/lib-ios",
 					"$(PROJECT_DIR)/AppReceiptValidator/OpenSSL/lib-tvos",
 				);
-				MODULEMAP_FILE = "AppReceiptValidator/Supporting Files/AppReceiptValidator.modulemap";
+				MODULEMAP_FILE = "AppReceiptValidator/Supporting Files/tvOS/AppReceiptValidator.modulemap";
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ideasoncanvas.AppReceiptValidator;
 				PRODUCT_NAME = AppReceiptValidator;
