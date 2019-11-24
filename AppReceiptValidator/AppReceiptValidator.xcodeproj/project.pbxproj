@@ -229,6 +229,111 @@
 		D1FE343E1F604F020029576B /* Receipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FE343C1F604F020029576B /* Receipt.swift */; };
 		D1FE34401F604F540029576B /* AppReceiptValidator+Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FE343F1F604F540029576B /* AppReceiptValidator+Parameters.swift */; };
 		D1FE34411F604F540029576B /* AppReceiptValidator+Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FE343F1F604F540029576B /* AppReceiptValidator+Parameters.swift */; };
+		FE410855238A7A8400BBFAE4 /* AppReceiptValidator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE410844238A7A7400BBFAE4 /* AppReceiptValidator.framework */; };
+		FE41085C238A7BD800BBFAE4 /* AppReceiptValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D6F53E1F5D89D000E86FE1 /* AppReceiptValidator.swift */; };
+		FE41085D238A7BF600BBFAE4 /* Receipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FE343C1F604F020029576B /* Receipt.swift */; };
+		FE41085E238A7C0400BBFAE4 /* UnofficialReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A428A81FE4267A00926BA5 /* UnofficialReceipt.swift */; };
+		FE41085F238A7C0600BBFAE4 /* AppReceiptValidator+Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FE343F1F604F540029576B /* AppReceiptValidator+Parameters.swift */; };
+		FE410860238A7C1000BBFAE4 /* DeviceIdentifier+installedDeviceIdentifier_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19095C11F6019E70095729B /* DeviceIdentifier+installedDeviceIdentifier_iOS.swift */; };
+		FE410861238A7C1F00BBFAE4 /* ASN1Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14FA73A1F618B0100545540 /* ASN1Helpers.swift */; };
+		FE410862238A7C2900BBFAE4 /* OpenSSLWrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14FA7371F6181C700545540 /* OpenSSLWrappers.swift */; };
+		FE410863238A7C2D00BBFAE4 /* pkcs7_union_accessors.h in Headers */ = {isa = PBXBuildFile; fileRef = D19095BA1F6004D10095729B /* pkcs7_union_accessors.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE410864238A7C3100BBFAE4 /* pkcs7_union_accessors.c in Sources */ = {isa = PBXBuildFile; fileRef = D19095BB1F6004D10095729B /* pkcs7_union_accessors.c */; };
+		FE410865238A7C3F00BBFAE4 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D430B21F69627600F7F39D /* libcrypto.a */; };
+		FE410866238A7C4400BBFAE4 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D430B31F69627600F7F39D /* libssl.a */; };
+		FE410867238A7C5300BBFAE4 /* aes.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431061F69627600F7F39D /* aes.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE410868238A7C5300BBFAE4 /* asn1.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431071F69627600F7F39D /* asn1.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE410869238A7C5300BBFAE4 /* asn1_mac.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431081F69627600F7F39D /* asn1_mac.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE41086A238A7C5300BBFAE4 /* asn1t.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431091F69627600F7F39D /* asn1t.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE41086B238A7C5300BBFAE4 /* bio.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D4310A1F69627600F7F39D /* bio.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE41086C238A7C5300BBFAE4 /* blowfish.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D4310B1F69627600F7F39D /* blowfish.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE41086D238A7C5300BBFAE4 /* bn.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D4310C1F69627600F7F39D /* bn.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE41086E238A7C5300BBFAE4 /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D4310D1F69627600F7F39D /* buffer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE41086F238A7C5300BBFAE4 /* camellia.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D4310E1F69627600F7F39D /* camellia.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE410870238A7C5300BBFAE4 /* cast.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D4310F1F69627600F7F39D /* cast.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE410871238A7C5300BBFAE4 /* cmac.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431101F69627600F7F39D /* cmac.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE410872238A7C5300BBFAE4 /* cms.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431111F69627600F7F39D /* cms.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE410873238A7C5300BBFAE4 /* comp.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431121F69627600F7F39D /* comp.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE410874238A7C5300BBFAE4 /* conf.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431131F69627600F7F39D /* conf.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE410875238A7C5300BBFAE4 /* conf_api.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431141F69627600F7F39D /* conf_api.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE410876238A7C5300BBFAE4 /* crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431151F69627600F7F39D /* crypto.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE410877238A7C5300BBFAE4 /* des.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431161F69627600F7F39D /* des.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE410878238A7C5300BBFAE4 /* des_old.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431171F69627600F7F39D /* des_old.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE410879238A7C5300BBFAE4 /* dh.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431181F69627600F7F39D /* dh.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE41087A238A7C5300BBFAE4 /* dsa.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431191F69627600F7F39D /* dsa.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE41087B238A7C5300BBFAE4 /* dso.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D4311A1F69627600F7F39D /* dso.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE41087C238A7C5300BBFAE4 /* dtls1.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D4311B1F69627600F7F39D /* dtls1.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE41087D238A7C5300BBFAE4 /* e_os2.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D4311C1F69627600F7F39D /* e_os2.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE41087E238A7C5300BBFAE4 /* ebcdic.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D4311D1F69627600F7F39D /* ebcdic.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE41087F238A7C5300BBFAE4 /* ec.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D4311E1F69627600F7F39D /* ec.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE410880238A7C5300BBFAE4 /* ecdh.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D4311F1F69627600F7F39D /* ecdh.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE410881238A7C5300BBFAE4 /* ecdsa.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431201F69627600F7F39D /* ecdsa.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE410882238A7C5300BBFAE4 /* engine.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431211F69627600F7F39D /* engine.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE410883238A7C5300BBFAE4 /* err.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431221F69627600F7F39D /* err.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE410884238A7C5300BBFAE4 /* evp.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431231F69627600F7F39D /* evp.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE410885238A7C5300BBFAE4 /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431241F69627600F7F39D /* hmac.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE410886238A7C5300BBFAE4 /* idea.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431251F69627600F7F39D /* idea.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE410887238A7C5300BBFAE4 /* krb5_asn.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431261F69627600F7F39D /* krb5_asn.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE410888238A7C5300BBFAE4 /* kssl.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431271F69627600F7F39D /* kssl.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE410889238A7C5300BBFAE4 /* lhash.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431281F69627600F7F39D /* lhash.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE41088A238A7C5400BBFAE4 /* md4.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431291F69627600F7F39D /* md4.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE41088B238A7C5400BBFAE4 /* md5.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D4312A1F69627600F7F39D /* md5.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE41088C238A7C5400BBFAE4 /* mdc2.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D4312B1F69627600F7F39D /* mdc2.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE41088D238A7C5400BBFAE4 /* modes.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D4312C1F69627600F7F39D /* modes.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE41088E238A7C5400BBFAE4 /* obj_mac.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D4312D1F69627600F7F39D /* obj_mac.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE41088F238A7C5400BBFAE4 /* objects.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D4312E1F69627600F7F39D /* objects.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE410890238A7C5400BBFAE4 /* ocsp.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D4312F1F69627600F7F39D /* ocsp.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE410891238A7C5400BBFAE4 /* opensslconf.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431301F69627600F7F39D /* opensslconf.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE410892238A7C5400BBFAE4 /* opensslv.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431311F69627600F7F39D /* opensslv.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE410893238A7C5400BBFAE4 /* ossl_typ.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431321F69627600F7F39D /* ossl_typ.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE410894238A7C5400BBFAE4 /* pem.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431331F69627600F7F39D /* pem.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE410895238A7C5400BBFAE4 /* pem2.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431341F69627600F7F39D /* pem2.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE410896238A7C5400BBFAE4 /* pkcs12.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431351F69627600F7F39D /* pkcs12.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE410897238A7C5400BBFAE4 /* pkcs7.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431361F69627600F7F39D /* pkcs7.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE410898238A7C5400BBFAE4 /* pqueue.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431371F69627600F7F39D /* pqueue.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE410899238A7C5400BBFAE4 /* rand.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431381F69627600F7F39D /* rand.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE41089A238A7C5400BBFAE4 /* rc2.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431391F69627600F7F39D /* rc2.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE41089B238A7C5400BBFAE4 /* rc4.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D4313A1F69627600F7F39D /* rc4.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE41089C238A7C5400BBFAE4 /* ripemd.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D4313B1F69627600F7F39D /* ripemd.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE41089D238A7C5400BBFAE4 /* rsa.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D4313C1F69627600F7F39D /* rsa.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE41089E238A7C5400BBFAE4 /* safestack.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D4313D1F69627600F7F39D /* safestack.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE41089F238A7C5400BBFAE4 /* seed.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D4313E1F69627600F7F39D /* seed.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE4108A0238A7C5400BBFAE4 /* sha.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D4313F1F69627600F7F39D /* sha.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE4108A1238A7C5400BBFAE4 /* srp.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431401F69627600F7F39D /* srp.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE4108A2238A7C5400BBFAE4 /* srtp.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431411F69627600F7F39D /* srtp.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE4108A3238A7C5400BBFAE4 /* ssl.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431421F69627600F7F39D /* ssl.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE4108A4238A7C5400BBFAE4 /* ssl2.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431431F69627600F7F39D /* ssl2.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE4108A5238A7C5400BBFAE4 /* ssl23.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431441F69627600F7F39D /* ssl23.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE4108A6238A7C5400BBFAE4 /* ssl3.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431451F69627600F7F39D /* ssl3.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE4108A7238A7C5400BBFAE4 /* stack.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431461F69627600F7F39D /* stack.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE4108A8238A7C5400BBFAE4 /* symhacks.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431471F69627600F7F39D /* symhacks.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE4108A9238A7C5400BBFAE4 /* tls1.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431481F69627600F7F39D /* tls1.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE4108AA238A7C5400BBFAE4 /* ts.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431491F69627600F7F39D /* ts.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE4108AB238A7C5400BBFAE4 /* txt_db.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D4314A1F69627600F7F39D /* txt_db.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE4108AC238A7C5400BBFAE4 /* ui.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D4314B1F69627600F7F39D /* ui.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE4108AD238A7C5400BBFAE4 /* ui_compat.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D4314C1F69627600F7F39D /* ui_compat.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE4108AE238A7C5400BBFAE4 /* whrlpool.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D4314D1F69627600F7F39D /* whrlpool.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE4108AF238A7C5400BBFAE4 /* x509.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D4314E1F69627600F7F39D /* x509.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE4108B0238A7C5400BBFAE4 /* x509_vfy.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D4314F1F69627600F7F39D /* x509_vfy.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE4108B1238A7C5400BBFAE4 /* x509v3.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D431501F69627600F7F39D /* x509v3.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE4108B2238A7CA000BBFAE4 /* KnownOrUnknown.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DFC5D920037B8400C7B99B /* KnownOrUnknown.swift */; };
+		FE4108B3238A7CA700BBFAE4 /* AppReceiptValidationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D6F5411F5D8A3800E86FE1 /* AppReceiptValidationTests.swift */; };
+		FE4108B4238A7CA900BBFAE4 /* AppReceiptPropertyValidationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AA845A1F6ABB31007F2558 /* AppReceiptPropertyValidationTests.swift */; };
+		FE4108B5238A7CAB00BBFAE4 /* AppReceiptValidationInAppPurchaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D150A0ED1F669A880026ED04 /* AppReceiptValidationInAppPurchaseTests.swift */; };
+		FE4108B6238A7CAE00BBFAE4 /* DeviceIdentifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D114544521A6BDE6001BEC61 /* DeviceIdentifierTests.swift */; };
+		FE4108B7238A7CB500BBFAE4 /* Date+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14FA72E1F6143C400545540 /* Date+Convenience.swift */; };
+		FE4108B8238A7CB700BBFAE4 /* TestAssetLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D6F5491F5D9B1F00E86FE1 /* TestAssetLoading.swift */; };
+		FE4108B9238A7CC600BBFAE4 /* deprecatedSinglesTypeExpiredAppleCert_receipt.b64 in Resources */ = {isa = PBXBuildFile; fileRef = D15358B11F62C3C400F297D0 /* deprecatedSinglesTypeExpiredAppleCert_receipt.b64 */; };
+		FE4108BA238A7CC900BBFAE4 /* grandUnifiedExpiredAppleCert_receipt.b64 in Resources */ = {isa = PBXBuildFile; fileRef = D15358A51F62BEC100F297D0 /* grandUnifiedExpiredAppleCert_receipt.b64 */; };
+		FE4108BB238A7CCB00BBFAE4 /* mac_mindnode_rebought_receipt in Resources */ = {isa = PBXBuildFile; fileRef = D14FA7311F61472400545540 /* mac_mindnode_rebought_receipt */; };
+		FE4108BC238A7CD200BBFAE4 /* hannes_mac_mindnode_Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1D6F5441F5D8DF700E86FE1 /* hannes_mac_mindnode_Info.plist */; };
+		FE4108BD238A7CD200BBFAE4 /* hannes_mac_mindnode_receipt in Resources */ = {isa = PBXBuildFile; fileRef = D1D6F5461F5D8DF700E86FE1 /* hannes_mac_mindnode_receipt */; };
+		FE4108BE238A7CD200BBFAE4 /* hannes_mac_mindnode_pro_Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1D6F5471F5D8DF700E86FE1 /* hannes_mac_mindnode_pro_Info.plist */; };
+		FE4108BF238A7CD200BBFAE4 /* hannes_mac_mindnode_pro_receipt in Resources */ = {isa = PBXBuildFile; fileRef = D1D6F5451F5D8DF700E86FE1 /* hannes_mac_mindnode_pro_receipt */; };
+		FE4108C0238A7CD200BBFAE4 /* mindnode_ios_michaelsandbox_receipt1.b64 in Resources */ = {isa = PBXBuildFile; fileRef = D150A0E21F66936B0026ED04 /* mindnode_ios_michaelsandbox_receipt1.b64 */; };
+		FE4108C1238A7CD200BBFAE4 /* mindnode_ios_michaelsandbox_receipt2.b64 in Resources */ = {isa = PBXBuildFile; fileRef = D150A0E81F6698950026ED04 /* mindnode_ios_michaelsandbox_receipt2.b64 */; };
+		FE4108C2238A7CD200BBFAE4 /* not_a_receipt in Resources */ = {isa = PBXBuildFile; fileRef = D1D6F54F1F5D9E8D00E86FE1 /* not_a_receipt */; };
+		FE4108C3238A7CFD00BBFAE4 /* AppleIncRootCertificate.cer in Resources */ = {isa = PBXBuildFile; fileRef = D19095C41F601DEA0095729B /* AppleIncRootCertificate.cer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -259,6 +364,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = D1D6F4E31F5D691400E86FE1;
 			remoteInfo = "AppReceiptValidator Demo iOS";
+		};
+		FE410856238A7A8400BBFAE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1D6F4931F5D67E600E86FE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE410843238A7A7400BBFAE4;
+			remoteInfo = "AppReceiptValidator tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -483,6 +595,10 @@
 		D1DFC5D920037B8400C7B99B /* KnownOrUnknown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnownOrUnknown.swift; sourceTree = "<group>"; };
 		D1FE343C1F604F020029576B /* Receipt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receipt.swift; sourceTree = "<group>"; };
 		D1FE343F1F604F540029576B /* AppReceiptValidator+Parameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppReceiptValidator+Parameters.swift"; sourceTree = "<group>"; };
+		FE410844238A7A7400BBFAE4 /* AppReceiptValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppReceiptValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE410847238A7A7400BBFAE4 /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
+		FE410850238A7A8400BBFAE4 /* AppReceiptValidator Tests tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppReceiptValidator Tests tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE410854238A7A8400BBFAE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -532,6 +648,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				D19095B81F6003AB0095729B /* AppReceiptValidator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE410841238A7A7400BBFAE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE410866238A7C4400BBFAE4 /* libssl.a in Frameworks */,
+				FE410865238A7C3F00BBFAE4 /* libcrypto.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE41084D238A7A8400BBFAE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE410855238A7A8400BBFAE4 /* AppReceiptValidator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -820,6 +953,7 @@
 				D19095951F6000A40095729B /* AppReceiptValidator Tests macOS */,
 				D19095AA1F6001800095729B /* AppReceiptValidator Tests iOS */,
 				D19095B61F6001C20095729B /* AppReceiptValidator Tests Shared */,
+				FE410851238A7A8400BBFAE4 /* AppReceiptValidator Tests tvOS */,
 				D1D6F49C1F5D67E600E86FE1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -833,6 +967,8 @@
 				D19095811F6000A40095729B /* AppReceiptValidator Demo macOS.app */,
 				D19095921F6000A40095729B /* AppReceiptValidator Tests macOS.xctest */,
 				D19095A91F6001800095729B /* AppReceiptValidator Tests iOS.xctest */,
+				FE410844238A7A7400BBFAE4 /* AppReceiptValidator.framework */,
+				FE410850238A7A8400BBFAE4 /* AppReceiptValidator Tests tvOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -872,6 +1008,7 @@
 				D15C59141F698005006F66FE /* AppReceiptValidator.modulemap */,
 				D1D6F5281F5D864500E86FE1 /* iOS */,
 				D1D6F5291F5D864A00E86FE1 /* macOS */,
+				FE41085B238A7B4200BBFAE4 /* tvOS */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -916,6 +1053,22 @@
 				D1DFC5D920037B8400C7B99B /* KnownOrUnknown.swift */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		FE410851238A7A8400BBFAE4 /* AppReceiptValidator Tests tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				FE410854238A7A8400BBFAE4 /* Info.plist */,
+			);
+			path = "AppReceiptValidator Tests tvOS";
+			sourceTree = "<group>";
+		};
+		FE41085B238A7B4200BBFAE4 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				FE410847238A7A7400BBFAE4 /* Info-tvOS.plist */,
+			);
+			path = tvOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1087,6 +1240,89 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FE41083F238A7A7400BBFAE4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4108A6238A7C5400BBFAE4 /* ssl3.h in Headers */,
+				FE410895238A7C5400BBFAE4 /* pem2.h in Headers */,
+				FE41088C238A7C5400BBFAE4 /* mdc2.h in Headers */,
+				FE4108A7238A7C5400BBFAE4 /* stack.h in Headers */,
+				FE410883238A7C5300BBFAE4 /* err.h in Headers */,
+				FE410897238A7C5400BBFAE4 /* pkcs7.h in Headers */,
+				FE41086A238A7C5300BBFAE4 /* asn1t.h in Headers */,
+				FE4108AC238A7C5400BBFAE4 /* ui.h in Headers */,
+				FE410868238A7C5300BBFAE4 /* asn1.h in Headers */,
+				FE41086E238A7C5300BBFAE4 /* buffer.h in Headers */,
+				FE4108AF238A7C5400BBFAE4 /* x509.h in Headers */,
+				FE410892238A7C5400BBFAE4 /* opensslv.h in Headers */,
+				FE410876238A7C5300BBFAE4 /* crypto.h in Headers */,
+				FE410888238A7C5300BBFAE4 /* kssl.h in Headers */,
+				FE410870238A7C5300BBFAE4 /* cast.h in Headers */,
+				FE4108A3238A7C5400BBFAE4 /* ssl.h in Headers */,
+				FE41086D238A7C5300BBFAE4 /* bn.h in Headers */,
+				FE41089B238A7C5400BBFAE4 /* rc4.h in Headers */,
+				FE4108A9238A7C5400BBFAE4 /* tls1.h in Headers */,
+				FE41086F238A7C5300BBFAE4 /* camellia.h in Headers */,
+				FE410899238A7C5400BBFAE4 /* rand.h in Headers */,
+				FE410878238A7C5300BBFAE4 /* des_old.h in Headers */,
+				FE4108B0238A7C5400BBFAE4 /* x509_vfy.h in Headers */,
+				FE410896238A7C5400BBFAE4 /* pkcs12.h in Headers */,
+				FE410884238A7C5300BBFAE4 /* evp.h in Headers */,
+				FE410882238A7C5300BBFAE4 /* engine.h in Headers */,
+				FE4108A5238A7C5400BBFAE4 /* ssl23.h in Headers */,
+				FE41088D238A7C5400BBFAE4 /* modes.h in Headers */,
+				FE410886238A7C5300BBFAE4 /* idea.h in Headers */,
+				FE4108B1238A7C5400BBFAE4 /* x509v3.h in Headers */,
+				FE41086C238A7C5300BBFAE4 /* blowfish.h in Headers */,
+				FE410867238A7C5300BBFAE4 /* aes.h in Headers */,
+				FE410871238A7C5300BBFAE4 /* cmac.h in Headers */,
+				FE4108AB238A7C5400BBFAE4 /* txt_db.h in Headers */,
+				FE41087B238A7C5300BBFAE4 /* dso.h in Headers */,
+				FE41088F238A7C5400BBFAE4 /* objects.h in Headers */,
+				FE41087C238A7C5300BBFAE4 /* dtls1.h in Headers */,
+				FE410872238A7C5300BBFAE4 /* cms.h in Headers */,
+				FE41087A238A7C5300BBFAE4 /* dsa.h in Headers */,
+				FE4108A4238A7C5400BBFAE4 /* ssl2.h in Headers */,
+				FE41089C238A7C5400BBFAE4 /* ripemd.h in Headers */,
+				FE4108AA238A7C5400BBFAE4 /* ts.h in Headers */,
+				FE410874238A7C5300BBFAE4 /* conf.h in Headers */,
+				FE410889238A7C5300BBFAE4 /* lhash.h in Headers */,
+				FE41088E238A7C5400BBFAE4 /* obj_mac.h in Headers */,
+				FE4108AD238A7C5400BBFAE4 /* ui_compat.h in Headers */,
+				FE41089D238A7C5400BBFAE4 /* rsa.h in Headers */,
+				FE41087F238A7C5300BBFAE4 /* ec.h in Headers */,
+				FE410881238A7C5300BBFAE4 /* ecdsa.h in Headers */,
+				FE410885238A7C5300BBFAE4 /* hmac.h in Headers */,
+				FE41089F238A7C5400BBFAE4 /* seed.h in Headers */,
+				FE4108AE238A7C5400BBFAE4 /* whrlpool.h in Headers */,
+				FE41086B238A7C5300BBFAE4 /* bio.h in Headers */,
+				FE41087E238A7C5300BBFAE4 /* ebcdic.h in Headers */,
+				FE410879238A7C5300BBFAE4 /* dh.h in Headers */,
+				FE410863238A7C2D00BBFAE4 /* pkcs7_union_accessors.h in Headers */,
+				FE410869238A7C5300BBFAE4 /* asn1_mac.h in Headers */,
+				FE410877238A7C5300BBFAE4 /* des.h in Headers */,
+				FE410887238A7C5300BBFAE4 /* krb5_asn.h in Headers */,
+				FE410898238A7C5400BBFAE4 /* pqueue.h in Headers */,
+				FE41089A238A7C5400BBFAE4 /* rc2.h in Headers */,
+				FE410893238A7C5400BBFAE4 /* ossl_typ.h in Headers */,
+				FE4108A2238A7C5400BBFAE4 /* srtp.h in Headers */,
+				FE4108A1238A7C5400BBFAE4 /* srp.h in Headers */,
+				FE41087D238A7C5300BBFAE4 /* e_os2.h in Headers */,
+				FE410891238A7C5400BBFAE4 /* opensslconf.h in Headers */,
+				FE41088A238A7C5400BBFAE4 /* md4.h in Headers */,
+				FE410880238A7C5300BBFAE4 /* ecdh.h in Headers */,
+				FE410873238A7C5300BBFAE4 /* comp.h in Headers */,
+				FE41089E238A7C5400BBFAE4 /* safestack.h in Headers */,
+				FE4108A8238A7C5400BBFAE4 /* symhacks.h in Headers */,
+				FE410875238A7C5300BBFAE4 /* conf_api.h in Headers */,
+				FE410890238A7C5400BBFAE4 /* ocsp.h in Headers */,
+				FE4108A0238A7C5400BBFAE4 /* sha.h in Headers */,
+				FE410894238A7C5400BBFAE4 /* pem.h in Headers */,
+				FE41088B238A7C5400BBFAE4 /* md5.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -1201,13 +1437,49 @@
 			productReference = D1D6F4E41F5D691400E86FE1 /* AppReceiptValidator Demo iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
+		FE410843238A7A7400BBFAE4 /* AppReceiptValidator tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE41084B238A7A7400BBFAE4 /* Build configuration list for PBXNativeTarget "AppReceiptValidator tvOS" */;
+			buildPhases = (
+				FE41083F238A7A7400BBFAE4 /* Headers */,
+				FE410840238A7A7400BBFAE4 /* Sources */,
+				FE410841238A7A7400BBFAE4 /* Frameworks */,
+				FE410842238A7A7400BBFAE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppReceiptValidator tvOS";
+			productName = "AppReceiptValidator tvOS";
+			productReference = FE410844238A7A7400BBFAE4 /* AppReceiptValidator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FE41084F238A7A8400BBFAE4 /* AppReceiptValidator Tests tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE410858238A7A8400BBFAE4 /* Build configuration list for PBXNativeTarget "AppReceiptValidator Tests tvOS" */;
+			buildPhases = (
+				FE41084C238A7A8400BBFAE4 /* Sources */,
+				FE41084D238A7A8400BBFAE4 /* Frameworks */,
+				FE41084E238A7A8400BBFAE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE410857238A7A8400BBFAE4 /* PBXTargetDependency */,
+			);
+			name = "AppReceiptValidator Tests tvOS";
+			productName = "AppReceiptValidator Tests tvOS";
+			productReference = FE410850238A7A8400BBFAE4 /* AppReceiptValidator Tests tvOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D1D6F4931F5D67E600E86FE1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0900;
+				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "IdeasOnCanvas GmbH";
 				TargetAttributes = {
@@ -1246,6 +1518,14 @@
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
+					FE410843238A7A7400BBFAE4 = {
+						CreatedOnToolsVersion = 11.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					FE41084F238A7A8400BBFAE4 = {
+						CreatedOnToolsVersion = 11.2.1;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = D1D6F4961F5D67E600E86FE1 /* Build configuration list for PBXProject "AppReceiptValidator" */;
@@ -1265,6 +1545,8 @@
 				D19095A81F6001800095729B /* AppReceiptValidator Tests iOS */,
 				D1D6F4C11F5D687400E86FE1 /* AppReceiptValidator macOS */,
 				D19095911F6000A40095729B /* AppReceiptValidator Tests macOS */,
+				FE410843238A7A7400BBFAE4 /* AppReceiptValidator tvOS */,
+				FE41084F238A7A8400BBFAE4 /* AppReceiptValidator Tests tvOS */,
 				D1D6F4E31F5D691400E86FE1 /* AppReceiptValidator Demo iOS */,
 				D19095801F6000A40095729B /* AppReceiptValidator Demo macOS */,
 			);
@@ -1338,6 +1620,31 @@
 				D1D6F4F11F5D691400E86FE1 /* LaunchScreen.storyboard in Resources */,
 				D1D6F4EE1F5D691400E86FE1 /* Assets.xcassets in Resources */,
 				D1D6F4EC1F5D691400E86FE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE410842238A7A7400BBFAE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4108C3238A7CFD00BBFAE4 /* AppleIncRootCertificate.cer in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE41084E238A7A8400BBFAE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4108BD238A7CD200BBFAE4 /* hannes_mac_mindnode_receipt in Resources */,
+				FE4108BA238A7CC900BBFAE4 /* grandUnifiedExpiredAppleCert_receipt.b64 in Resources */,
+				FE4108BC238A7CD200BBFAE4 /* hannes_mac_mindnode_Info.plist in Resources */,
+				FE4108C2238A7CD200BBFAE4 /* not_a_receipt in Resources */,
+				FE4108BE238A7CD200BBFAE4 /* hannes_mac_mindnode_pro_Info.plist in Resources */,
+				FE4108BF238A7CD200BBFAE4 /* hannes_mac_mindnode_pro_receipt in Resources */,
+				FE4108B9238A7CC600BBFAE4 /* deprecatedSinglesTypeExpiredAppleCert_receipt.b64 in Resources */,
+				FE4108BB238A7CCB00BBFAE4 /* mac_mindnode_rebought_receipt in Resources */,
+				FE4108C0238A7CD200BBFAE4 /* mindnode_ios_michaelsandbox_receipt1.b64 in Resources */,
+				FE4108C1238A7CD200BBFAE4 /* mindnode_ios_michaelsandbox_receipt2.b64 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1462,6 +1769,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FE410840238A7A7400BBFAE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE410862238A7C2900BBFAE4 /* OpenSSLWrappers.swift in Sources */,
+				FE410860238A7C1000BBFAE4 /* DeviceIdentifier+installedDeviceIdentifier_iOS.swift in Sources */,
+				FE41085E238A7C0400BBFAE4 /* UnofficialReceipt.swift in Sources */,
+				FE410861238A7C1F00BBFAE4 /* ASN1Helpers.swift in Sources */,
+				FE4108B2238A7CA000BBFAE4 /* KnownOrUnknown.swift in Sources */,
+				FE41085F238A7C0600BBFAE4 /* AppReceiptValidator+Parameters.swift in Sources */,
+				FE410864238A7C3100BBFAE4 /* pkcs7_union_accessors.c in Sources */,
+				FE41085D238A7BF600BBFAE4 /* Receipt.swift in Sources */,
+				FE41085C238A7BD800BBFAE4 /* AppReceiptValidator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE41084C238A7A8400BBFAE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4108B8238A7CB700BBFAE4 /* TestAssetLoading.swift in Sources */,
+				FE4108B7238A7CB500BBFAE4 /* Date+Convenience.swift in Sources */,
+				FE4108B5238A7CAB00BBFAE4 /* AppReceiptValidationInAppPurchaseTests.swift in Sources */,
+				FE4108B4238A7CA900BBFAE4 /* AppReceiptPropertyValidationTests.swift in Sources */,
+				FE4108B6238A7CAE00BBFAE4 /* DeviceIdentifierTests.swift in Sources */,
+				FE4108B3238A7CA700BBFAE4 /* AppReceiptValidationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1484,6 +1820,11 @@
 			isa = PBXTargetDependency;
 			target = D1D6F4E31F5D691400E86FE1 /* AppReceiptValidator Demo iOS */;
 			targetProxy = D19095B41F6001900095729B /* PBXContainerItemProxy */;
+		};
+		FE410857238A7A8400BBFAE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE410843238A7A7400BBFAE4 /* AppReceiptValidator tvOS */;
+			targetProxy = FE410856238A7A8400BBFAE4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1890,6 +2231,110 @@
 			};
 			name = Release;
 		};
+		FE410849238A7A7400BBFAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/AppReceiptValidator/Supporting Files/tvOS/Info-tvOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppReceiptValidator/OpenSSL/lib-ios",
+				);
+				MODULEMAP_FILE = "AppReceiptValidator/Supporting Files/AppReceiptValidator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ideasoncanvas.AppReceiptValidator;
+				PRODUCT_NAME = AppReceiptValidator;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE41084A238A7A7400BBFAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/AppReceiptValidator/Supporting Files/tvOS/Info-tvOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppReceiptValidator/OpenSSL/lib-ios",
+				);
+				MODULEMAP_FILE = "AppReceiptValidator/Supporting Files/AppReceiptValidator.modulemap";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ideasoncanvas.AppReceiptValidator;
+				PRODUCT_NAME = AppReceiptValidator;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE410859238A7A8400BBFAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6R6AAE5VL;
+				INFOPLIST_FILE = "AppReceiptValidator Tests tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.arturgrigor.AppReceiptValidator-Tests-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		FE41085A238A7A8400BBFAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6R6AAE5VL;
+				INFOPLIST_FILE = "AppReceiptValidator Tests tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.arturgrigor.AppReceiptValidator-Tests-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1952,6 +2397,24 @@
 			buildConfigurations = (
 				D1D6F4F41F5D691400E86FE1 /* Debug */,
 				D1D6F4F51F5D691400E86FE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE41084B238A7A7400BBFAE4 /* Build configuration list for PBXNativeTarget "AppReceiptValidator tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE410849238A7A7400BBFAE4 /* Debug */,
+				FE41084A238A7A7400BBFAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE410858238A7A8400BBFAE4 /* Build configuration list for PBXNativeTarget "AppReceiptValidator Tests tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE410859238A7A8400BBFAE4 /* Debug */,
+				FE41085A238A7A8400BBFAE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
